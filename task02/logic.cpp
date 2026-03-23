@@ -23,3 +23,13 @@ void init_random(int array[], int length, int a, int b) {
 	}
 }
 
+string the_same_numbs(int array[], int length) {
+	string s = "";
+	for (int j = 0; j < length; j++) {
+		if (array[j] == array[j + 1]) {
+			s = to_string(array[j]);
+		}
+	}
+	return s;
+
+}

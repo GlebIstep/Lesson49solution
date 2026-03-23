@@ -7,5 +7,7 @@ int main() {
 	init_random(array, size, 0, 100);
 	
 
+
+
 	return 0;
 }

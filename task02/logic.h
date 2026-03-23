@@ -8,3 +8,4 @@ using namespace std;
 void print(string s);
 string convert(int array[], int length);
 void init_random(int array[], int length, int a, int b);
+string the_same_numbs(int array[], int length);	
